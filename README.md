@@ -7,4 +7,4 @@ repositories. I may migrate them in the future.
 
 These list contains all projects and blog posts.
 
-* [C# Delegate, Action, Func, Predicate Explained](CSharp-Delegate-Action-Func-Predicate/README.md) ([Blog Post](TODO))
+* [C# Delegate, Action, Func, Predicate Explained](CSharp-Delegate-Action-Func-Predicate) ([Blog Post](TODO))
