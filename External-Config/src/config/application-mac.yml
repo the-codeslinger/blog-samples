@@ -1,0 +1,9 @@
+spring:
+  main:
+    banner-mode: "off"
+
+external-config:
+  input:
+    path: /Users/the/code
+  output:
+    path: /Users/slinger

@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: INFO
+    com.thecodeslinger.externalconfig.ExternalConfigApplication: WARN
+
+external-config:
+  input:
+    path: /home/the/code
+  output:
+    path: /home/slinger
