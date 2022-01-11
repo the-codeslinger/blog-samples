@@ -351,6 +351,9 @@ MigrationBackup/
 
 # IntelliJ IDEA
 .idea/
+*.iws
+*.iml
+*.ipr
 
 # Visual Studio Code
 .vscode/
@@ -360,3 +363,4 @@ MigrationBackup/
 
 # Maven default output
 target/
+.mvn/
