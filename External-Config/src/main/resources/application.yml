@@ -5,6 +5,6 @@ logging:
 
 external-config:
   input:
-    path: /home/the/code
+    path: /home/bundled/thecode
   output:
-    path: /home/slinger
+    path: /home/bundled/slinger

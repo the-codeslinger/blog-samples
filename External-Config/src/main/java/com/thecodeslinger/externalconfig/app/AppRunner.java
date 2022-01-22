@@ -20,6 +20,6 @@ public class AppRunner implements CommandLineRunner {
         System.out.println("-> ExternalConfigProperties");
 
         System.out.println("Input path: " + externalConfigProperties.getInput().getPath());
-        System.out.println("Input path: " + externalConfigProperties.getOutput().getPath());
+        System.out.println("Output path: " + externalConfigProperties.getOutput().getPath());
     }
 }

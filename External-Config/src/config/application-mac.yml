@@ -4,6 +4,6 @@ spring:
 
 external-config:
   input:
-    path: /Users/the/code
+    path: /Users/mac/thecode
   output:
-    path: /Users/slinger
+    path: /Users/mac/slinger
