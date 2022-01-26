@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: "off"
+
+logging:
+  level:
+    root: INFO
+    com.thecodeslinger.externalconfig.ExternalConfigApplication: WARN
+
+external-config:
+  input:
+    path: /home/bundled/thecode
+  output:
+    path: /home/bundled/slinger

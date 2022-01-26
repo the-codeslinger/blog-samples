@@ -1,0 +1,5 @@
+external-config:
+  input:
+    path: /Users/mac/thecode
+  output:
+    path: /Users/mac/slinger
