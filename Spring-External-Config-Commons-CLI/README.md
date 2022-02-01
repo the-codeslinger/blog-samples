@@ -69,7 +69,7 @@ Missing required options: i, o
 **Example 3:** Specify externalized config as 1st app parameter
 
 ```shell
-% java -jar target/external-config-commons-cli-1.0.0.jar --spring.config.additional-location=src/config/application-mac.yml  -i in -o out
+% java -jar target/external-config-commons-cli-1.0.0.jar --spring.config.additional-location=src/config/application-mac.yml -i in -o out
 -> AppRunner.run() Command Line Arguments
 Argument: --spring.config.additional-location=src/config/application-mac.yml
 Argument: -i
