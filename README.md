@@ -9,8 +9,8 @@ The lists are ordered newest to oldest.
 
 ## 2022
 
-* [Spring Boot `@RestController` Action Returning `java.util.Optional`](Controller-Optional) ([Blog Post](TODO))
-* [Spring Boot Externalized Config on Command Line With Apache Commons CLI](Spring-External-Config-Commons-CLI) ([Blog Post] (http://the-codeslinger.com/2022/02/01/spring-boot-externalized-config-on-command-line-with-apache-commons-cli-missing-required-option/))
+* [Spring Boot `@RestController` Action Returning `java.util.Optional`](Controller-Optional) ([Blog Post](http://the-codeslinger.com/2022/07/24/spring-boot-restcontroller-action-returning-java-util-optional/))
+* [Spring Boot Externalized Config on Command Line With Apache Commons CLI](Spring-External-Config-Commons-CLI) ([Blog Post](http://the-codeslinger.com/2022/02/01/spring-boot-externalized-config-on-command-line-with-apache-commons-cli-missing-required-option/))
 * [Spring Boot Externalized Config on Command Line](Spring-External-Config) ([Blog Post](http://the-codeslinger.com/2022/01/22/spring-boot-externalized-config-on-command-line/))
 
 ## 2021
