@@ -5,7 +5,7 @@ This sample project demonstrates how to create field-specific error messages
 for a custom `ConstraintValidator` that targets a class instead of a single
 field.
 
-See the accompanying blog post for explanations to the code.
+See the accompanying [blog post][blog] for explanations to the code.
 
 ## Usage
 
@@ -48,3 +48,5 @@ Connection: close
   ]
 }
 ```
+
+[blog]: http://the-codeslinger.com/2022/10/19/spring-boot-custom-field-error-messages-in-class-based-custom-bean-constraintvalidator/
