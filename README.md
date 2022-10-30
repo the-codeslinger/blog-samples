@@ -9,7 +9,7 @@ The lists are ordered newest to oldest.
 
 ## 2022
 
-* [Spring Boot Push Micrometer Metrics to Prometheus Pushgateway](Spring-Boot-Prometheus-Pushgateway) ([Blog Post](http://thecodeslinger.org))
+* [Spring Boot Push Micrometer Metrics to Prometheus Pushgateway](Spring-Boot-Prometheus-Pushgateway) ([Blog Post](http://thecodeslinger.org/2022/10/30/spring-boot-push-micrometer-metrics-to-prometheus-pushgateway/))
 * [Spring Boot Custom Error Messages in Class Based Custom `ConstraintValidator`](Spring-Boot-Validation-Error-Message) ([Blog Post](http://thecodeslinger.org/2022/10/19/spring-boot-custom-field-error-messages-in-class-based-custom-bean-constraintvalidator/))
 * [Spring Boot `@RestController` Action Returning `java.util.Optional`](Controller-Optional) ([Blog Post](http://thecodeslinger.org/2022/07/24/spring-boot-restcontroller-action-returning-java-util-optional/))
 * [Spring Boot Externalized Config on Command Line With Apache Commons CLI](Spring-External-Config-Commons-CLI) ([Blog Post](http://thecodeslinger.org/2022/02/01/spring-boot-externalized-config-on-command-line-with-apache-commons-cli-missing-required-option/))
