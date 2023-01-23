@@ -7,6 +7,10 @@ repositories. I might, maybe, perhaps (or not) migrate them in the future.
 
 The lists are ordered newest to oldest.
 
+## 2023
+
+* [Spring Cloud Stream Kafka Consumer](Spring-Cloud-Stream-Kafka-Consumer) ([Blog Post](http://thecodeslinger.org/2023/01/28/spring-cloud-stream-kafka-consumer/))
+
 ## 2022
 
 * [Spring Boot Push Micrometer Metrics to Prometheus Pushgateway](Spring-Boot-Prometheus-Pushgateway) ([Blog Post](http://thecodeslinger.org/2022/10/30/spring-boot-push-micrometer-metrics-to-prometheus-pushgateway/))

@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          # The kafka broker. According to Microsoft, this can also be an Event Hub
+          # if you are targeting Azure.
+          brokers: "localhost:9092"
+          # I do not want that.
+          autoCreateTopics: false
+      function:
+        # All known producers and consumers (only the latter in this example).
+        definition: requestMessageConsumer;fakeNewsError
+      bindings:
+        requestMessageConsumer-in-0:
+          # Topic name.
+          destination: fake-news
+          # Consumer group name.
+          group: impartial-outlet
+          # Error handling bean name. See ConsumerConfig.java.
+          error-handler-definition: fakeNewsError
+          # Limit the number of retries in case of error. Defaults to 3.
+          consumer:
+            maxAttempts: 1
