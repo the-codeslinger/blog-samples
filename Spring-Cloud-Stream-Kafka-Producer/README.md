@@ -20,5 +20,10 @@ curl -i -X POST "http://localhost:8081/fake-news?alternativeFact=Episode%20One%2
 
 Application output:
 ```shell
-Manually sending message GenericMessage [payload=RequestMessage[type=lie, referrer=Liar, payload=RequestMessagePayload[alternativeFact=Party hard]], headers={id=401505d0-6904-966e-3cb3-feef3a4a3c51, timestamp=1677394031888}]
+02-26T07:59:43.466+01:00  INFO 6401 --- [nio-8081-exec-1] c.e.demo.service.RequestMessageProducer  : Manually sending message GenericMessage [payload=RequestMessage[type=lie, referrer=Liar, payload=RequestMessagePayload[alternativeFact=Episode One is the best Star Wars movie]], headers={id=9e41ccaf-3ce7-59f3-7865-fb365ecbf5d3, timestamp=1677394783466}]
+```
+
+When the consumer is running, it will output this message.
+```shell
+2023-02-26T07:59:43.551+01:00  INFO 6406 --- [container-0-C-1] o.t.s.service.MessageAggregationService  : Fake-news received: 'Episode One is the best Star Wars movie'.
 ```
