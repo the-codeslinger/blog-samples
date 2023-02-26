@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          # The kafka broker. According to Microsoft, this can also be an Event Hub
+          # if you are targeting Azure.
+          brokers: localhost:9092
+          # I do not want that.
+          autoCreateTopics: false
+      function:
+        # All known producers and consumers (only the first in this example).
+        definition: requestMessageProducer
+      bindings:
+        requestMessageProducer-out-0:
+          # Topic name.
+          destination: fake-news
+          # Set a property that shall be used to calculate a partition key.
+          # https://docs.spring.io/spring-cloud-stream/docs/current/reference/html/spring-cloud-stream.html#_producer_properties
+          producer:
+            partitionKeyExpression: payload.type

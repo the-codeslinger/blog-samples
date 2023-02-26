@@ -4,6 +4,8 @@ Spring Cloud Stream Kafka Consumer
 This is a sample application using Spring Cloud Stream together with the Kafka 
 message broker to implement a message consumer.
 
+This sample can be used together with the [producer sample](../Spring-Cloud-Stream-Kafka-Producer).
+
 [Quickstart guide](https://kafka.apache.org/quickstart) to get Apache Kafka 
 running on your machine. Requires Linux or macOS (WSL on Windows).
 

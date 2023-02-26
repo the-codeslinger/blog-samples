@@ -9,6 +9,7 @@ The lists are ordered newest to oldest.
 
 ## 2023
 
+* [Spring Cloud Stream Kafka Producer](Spring-Cloud-Stream-Kafka-Producer) ([Blog Post](TODO))
 * [Spring Cloud Stream Kafka Consumer](Spring-Cloud-Stream-Kafka-Consumer) ([Blog Post](http://thecodeslinger.org/2023/01/28/spring-cloud-stream-kafka-consumer/))
 
 ## 2022
