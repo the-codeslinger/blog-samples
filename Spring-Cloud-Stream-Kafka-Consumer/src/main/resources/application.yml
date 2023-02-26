@@ -5,7 +5,7 @@ spring:
         binder:
           # The kafka broker. According to Microsoft, this can also be an Event Hub
           # if you are targeting Azure.
-          brokers: "localhost:9092"
+          brokers: localhost:9092
           # I do not want that.
           autoCreateTopics: false
       function:
