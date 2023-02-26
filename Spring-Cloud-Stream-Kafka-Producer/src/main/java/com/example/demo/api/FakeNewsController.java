@@ -1,6 +1,6 @@
 package com.example.demo.api;
 
-import com.example.demo.service.RequestMessageProducer;
+import com.example.demo.producer.RequestMessageProducer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -2,7 +2,7 @@ package com.example.demo.config;
 
 
 import com.example.demo.producer.dto.RequestMessage;
-import com.example.demo.service.RequestMessageProducer;
+import com.example.demo.producer.RequestMessageProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.context.annotation.Bean;
@@ -23,6 +23,9 @@ public class ProducerConfig {
      * <p>
      * Optionally, {@link StreamBridge} is an alternative to replace the sink and
      * supplier.
+     *
+     * @see https://github.com/reactor/reactor-core/blob/main/docs/asciidoc/processors.adoc
+     * @see https://docs.spring.io/spring-cloud-stream/docs/current/reference/html/spring-cloud-stream.html#_sending_arbitrary_data_to_an_output_e_g_foreign_event_driven_sources
      */
 	@Bean
     public Sinks.Many<Message<RequestMessage>> messageSink() {

@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.producer;
 
 import com.example.demo.producer.dto.RequestMessage;
 import com.example.demo.producer.dto.RequestMessagePayload;
