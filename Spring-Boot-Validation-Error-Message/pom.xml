@@ -11,7 +11,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>org.thecodeslinger</groupId>
+	<groupId>com.thecodeslinger</groupId>
 	<artifactId>validation-error-message</artifactId>
 	<version>1.0.0</version>
 	<name>validation-error-message</name>

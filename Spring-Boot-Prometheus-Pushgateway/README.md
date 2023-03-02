@@ -10,4 +10,4 @@ Run a Pushgateway for local testing in Docker.
 docker run -d -p 9091:9091 --name=prometheus-pushgateway prom/pushgateway:latest
 ```
 
-[blog]: http://thecodeslinger.org/2022/10/30/spring-boot-push-micrometer-metrics-to-prometheus-pushgateway/
+[blog]: https://the-codeslinger.com/2022/10/30/spring-boot-push-micrometer-metrics-to-prometheus-pushgateway/

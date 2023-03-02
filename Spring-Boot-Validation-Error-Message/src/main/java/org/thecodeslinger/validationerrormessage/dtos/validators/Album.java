@@ -1,6 +1,6 @@
-package org.thecodeslinger.validationerrormessage.dtos.validators;
+package com.thecodeslinger.validationerrormessage.dtos.validators;
 
-import org.thecodeslinger.validationerrormessage.dtos.MusicAlbum;
+import com.thecodeslinger.validationerrormessage.dtos.MusicAlbum;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

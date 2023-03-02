@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage;
+package com.thecodeslinger.validationerrormessage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage.exceptions;
+package com.thecodeslinger.validationerrormessage.exceptions;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
-import org.thecodeslinger.validationerrormessage.dtos.ErrorMessage;
+import com.thecodeslinger.validationerrormessage.dtos.ErrorMessage;
 
 import java.util.List;
 

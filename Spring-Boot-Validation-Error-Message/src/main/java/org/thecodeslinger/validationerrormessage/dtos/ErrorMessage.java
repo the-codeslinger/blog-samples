@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage.dtos;
+package com.thecodeslinger.validationerrormessage.dtos;
 
 import java.util.List;
 

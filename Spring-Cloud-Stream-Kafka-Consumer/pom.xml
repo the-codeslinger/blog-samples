@@ -10,7 +10,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>org.thecodeslinger</groupId>
+	<groupId>com.thecodeslinger</groupId>
 	<artifactId>spring-cloud-streams-kafka</artifactId>
 	<version>1.0.0</version>
 	<name>spring-cloud-streams-kafka</name>

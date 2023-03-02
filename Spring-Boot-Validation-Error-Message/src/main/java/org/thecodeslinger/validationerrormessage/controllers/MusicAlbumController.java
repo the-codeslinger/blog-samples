@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage.controllers;
+package com.thecodeslinger.validationerrormessage.controllers;
 
 import javax.validation.Valid;
 
@@ -6,7 +6,7 @@ import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.thecodeslinger.validationerrormessage.dtos.MusicAlbum;
+import com.thecodeslinger.validationerrormessage.dtos.MusicAlbum;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -7,4 +7,4 @@ Creates a simple web service with two endpoints. The goal is to find out if
 * `http://localhost:8080/value?isNull=[true/false]`
 * `http://localhost:8080/optional?isNull=[true/false]`
 
-[Read the blog post for details.](http://the-codeslinger.com/2022/07/24/spring-boot-restcontroller-action-returning-java-util-optional/)
+[Read the blog post for details.](https://the-codeslinger.com/2022/07/24/spring-boot-restcontroller-action-returning-java-util-optional/)

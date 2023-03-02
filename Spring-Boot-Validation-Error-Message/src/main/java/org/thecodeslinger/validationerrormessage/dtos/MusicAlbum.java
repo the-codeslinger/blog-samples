@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage.dtos;
+package com.thecodeslinger.validationerrormessage.dtos;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.thecodeslinger.validationerrormessage.dtos.validators.Album;
+import com.thecodeslinger.validationerrormessage.dtos.validators.Album;
 
 @Data
 @Album

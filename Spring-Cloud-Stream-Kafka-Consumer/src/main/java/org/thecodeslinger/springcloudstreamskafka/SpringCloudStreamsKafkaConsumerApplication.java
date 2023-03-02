@@ -1,4 +1,4 @@
-package org.thecodeslinger.springcloudstreamskafka;
+package com.thecodeslinger.springcloudstreamskafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

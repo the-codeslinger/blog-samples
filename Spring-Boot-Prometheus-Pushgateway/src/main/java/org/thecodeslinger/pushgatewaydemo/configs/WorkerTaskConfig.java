@@ -1,10 +1,10 @@
-package org.thecodeslinger.pushgatewaydemo.configs;
+package com.thecodeslinger.pushgatewaydemo.configs;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.thecodeslinger.pushgatewaydemo.tasks.WorkerTask;
+import com.thecodeslinger.pushgatewaydemo.tasks.WorkerTask;
 
 @Configuration
 @RequiredArgsConstructor

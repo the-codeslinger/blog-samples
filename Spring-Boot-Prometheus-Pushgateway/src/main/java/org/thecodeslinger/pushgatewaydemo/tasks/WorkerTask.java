@@ -1,4 +1,4 @@
-package org.thecodeslinger.pushgatewaydemo.tasks;
+package com.thecodeslinger.pushgatewaydemo.tasks;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.Timer;

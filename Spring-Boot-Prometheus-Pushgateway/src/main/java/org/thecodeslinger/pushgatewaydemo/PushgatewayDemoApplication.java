@@ -1,4 +1,4 @@
-package org.thecodeslinger.pushgatewaydemo;
+package com.thecodeslinger.pushgatewaydemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

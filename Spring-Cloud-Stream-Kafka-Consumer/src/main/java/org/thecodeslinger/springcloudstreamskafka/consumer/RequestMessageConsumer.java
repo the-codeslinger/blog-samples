@@ -1,10 +1,10 @@
-package org.thecodeslinger.springcloudstreamskafka.consumer;
+package com.thecodeslinger.springcloudstreamskafka.consumer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.Message;
-import org.thecodeslinger.springcloudstreamskafka.consumer.dto.RequestMessage;
-import org.thecodeslinger.springcloudstreamskafka.service.MessageAggregationService;
+import com.thecodeslinger.springcloudstreamskafka.consumer.dto.RequestMessage;
+import com.thecodeslinger.springcloudstreamskafka.service.MessageAggregationService;
 
 import java.util.function.Consumer;
 

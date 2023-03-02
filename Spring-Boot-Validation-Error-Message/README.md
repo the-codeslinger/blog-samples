@@ -49,4 +49,4 @@ Connection: close
 }
 ```
 
-[blog]: http://the-codeslinger.com/2022/10/19/spring-boot-custom-field-error-messages-in-class-based-custom-bean-constraintvalidator/
+[blog]: https://the-codeslinger.com/2022/10/19/spring-boot-custom-field-error-messages-in-class-based-custom-bean-constraintvalidator/

@@ -1,4 +1,4 @@
-package org.thecodeslinger.validationerrormessage.dtos;
+package com.thecodeslinger.validationerrormessage.dtos;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;

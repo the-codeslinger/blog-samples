@@ -1,11 +1,11 @@
-package org.thecodeslinger.springcloudstreamskafka.config;
+package com.thecodeslinger.springcloudstreamskafka.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.support.ErrorMessage;
-import org.thecodeslinger.springcloudstreamskafka.consumer.RequestMessageConsumer;
-import org.thecodeslinger.springcloudstreamskafka.service.MessageAggregationService;
+import com.thecodeslinger.springcloudstreamskafka.consumer.RequestMessageConsumer;
+import com.thecodeslinger.springcloudstreamskafka.service.MessageAggregationService;
 
 import java.nio.charset.StandardCharsets;
 import java.util.function.Consumer;
