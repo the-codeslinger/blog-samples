@@ -9,7 +9,7 @@ The lists are ordered newest to oldest.
 
 ## 2024
 
-* [How To Detect Windows Or Linux Operating System In Terraform](Terraform-Detect-Operating-System) ([Blog Post](http://the-codeslinger.com/2024/01/04/fedora-39-change-kde-plasma-to-gnome-shell/))
+* [How To Detect Windows Or Linux Operating System In Terraform](Terraform-Detect-Operating-System) ([Blog Post](http://the-codeslinger.com/2024/01/14/how-to-detect-windows-or-linux-operating-system-in-terraform/))
 
 ## 2023
 
