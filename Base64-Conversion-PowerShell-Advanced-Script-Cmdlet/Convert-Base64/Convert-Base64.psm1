@@ -11,11 +11,12 @@ Function ConvertTo-Base64
         if ($null -ne $Data) 
         {
             $Bytes = [System.Text.Encoding]::UTF8.GetBytes($Data)
-            Write-Output [Convert]::ToBase64String($Bytes)
+            return [Convert]::ToBase64String($Bytes)
         }
         else 
         {
             Write-Error "No input data provided."
+            return
         }
     }
 
@@ -71,11 +72,12 @@ Function ConvertFrom-Base64
         if ($null -ne $Base64) 
         {
             $Bytes = [Convert]::FromBase64String($Base64)
-            Write-Output [System.Text.Encoding]::UTF8.GetString($Bytes)
+            return [System.Text.Encoding]::UTF8.GetString($Bytes)
         }
         else 
         {
             Write-Error "No base64-encoded data provided."
+            return
         }
     }
 
@@ -118,4 +120,4 @@ Function ConvertFrom-Base64
     #>
 }
 
-Export-ModuleMember -Function Convert-ToBase64, Convert-FromBase64
+Export-ModuleMember -Function ConvertTo-Base64, ConvertFrom-Base64
