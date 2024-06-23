@@ -27,7 +27,7 @@ Function ConvertTo-Base64
 
     .DESCRIPTION
 
-    The Convert-ToBase64 function converts data to base64-encoded format. 
+    The ConvertTo-Base64 function converts data to base64-encoded format. 
     The function accepts an array of data as input and returns the base64-encoded string.
     Pipeline input is supported.
 
@@ -41,17 +41,17 @@ Function ConvertTo-Base64
 
     .EXAMPLE
 
-    PS> Convert-ToBase64 "Why can't dinosaurs clap their hands? Because they're extinct."
+    PS> ConvertTo-Base64 "Why can't dinosaurs clap their hands? Because they're extinct."
     V2h5IGNhbid0IGRpbm9zYXVycyBjbGFwIHRoZWlyIGhhbmRzPyBCZWNhdXNlIHRoZXkncmUgZXh0aW5jdC4=
 
     .EXAMPLE
 
-    PS> Convert-ToBase64 -Data "I'm afraid for the calendar. Its days are numbered."     
+    PS> ConvertTo-Base64 -Data "I'm afraid for the calendar. Its days are numbered."     
     SSdtIGFmcmFpZCBmb3IgdGhlIGNhbGVuZGFyLiBJdHMgZGF5cyBhcmUgbnVtYmVyZWQu
 
     .EXAMPLE
 
-    PS> "I was going to try an all almond diet, but that's just nuts." | Convert-ToBase64
+    PS> "I was going to try an all almond diet, but that's just nuts." | ConvertTo-Base64
     SSB3YXMgZ29pbmcgdG8gdHJ5IGFuIGFsbCBhbG1vbmQgZGlldCwgYnV0IHRoYXQncyBqdXN0IG51dHMu
 
     .LINK
@@ -88,7 +88,7 @@ Function ConvertFrom-Base64
 
     .DESCRIPTION
 
-    The Convert-FromBase64 function converts base64-encoded data to its original form.
+    The ConvertFrom-Base64 function converts base64-encoded data to its original form.
     The function accepts a base64-encoded string as input and returns the original data as a string.
     Pipeline input is supported.
 
@@ -102,17 +102,17 @@ Function ConvertFrom-Base64
 
     .EXAMPLE
 
-    PS> Convert-FromBase64 "V2hhdCBkbyB5b3UgY2FsbCBhIGZhY3RvcnkgdGhhdCBtYWtlcyBva2F5IHByb2R1Y3RzPyBBIHNhdGlzZmFjdG9yeS4="
+    PS> ConvertFrom-Base64 "V2hhdCBkbyB5b3UgY2FsbCBhIGZhY3RvcnkgdGhhdCBtYWtlcyBva2F5IHByb2R1Y3RzPyBBIHNhdGlzZmFjdG9yeS4="
     What do you call a factory that makes okay products? A satisfactory.
 
     .EXAMPLE
 
-    PS> Convert-FromBase64 -Base64 "SSBvbmx5IGtub3cgMjUgbGV0dGVycyBvZiB0aGUgYWxwaGFiZXQuIEkgZG9uJ3Qga25vdyB5Lg=="
+    PS> ConvertFrom-Base64 -Base64 "SSBvbmx5IGtub3cgMjUgbGV0dGVycyBvZiB0aGUgYWxwaGFiZXQuIEkgZG9uJ3Qga25vdyB5Lg=="
     I only know 25 letters of the alphabet. I don't know y.
 
     .EXAMPLE
 
-    "SSBtYWRlIGEgcGVuY2lsIHdpdGggdHdvIGVyYXNlcnMuIEl0IHdhcyBwb2ludGxlc3Mu" | Convert-FromBase64              
+    "SSBtYWRlIGEgcGVuY2lsIHdpdGggdHdvIGVyYXNlcnMuIEl0IHdhcyBwb2ludGxlc3Mu" | ConvertFrom-Base64              
     I made a pencil with two erasers. It was pointless.
 
     .LINK
