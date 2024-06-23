@@ -1,4 +1,4 @@
-function Convert-ToBase64 
+Function ConvertTo-Base64 
 {
     [CmdletBinding()]
     param (
@@ -10,13 +10,12 @@ function Convert-ToBase64
     {
         if ($null -ne $Data) 
         {
-            $bytes = [System.Text.Encoding]::UTF8.GetBytes($Data)
-            return [Convert]::ToBase64String($bytes)
+            $Bytes = [System.Text.Encoding]::UTF8.GetBytes($Data)
+            Write-Output [Convert]::ToBase64String($Bytes)
         }
         else 
         {
             Write-Error "No input data provided."
-            return
         }
     }
 
@@ -59,19 +58,25 @@ function Convert-ToBase64
     #>
 }
 
-# An advanced function that converts base64-encoded data to its original form.
-function Convert-FromBase64 
+Function ConvertFrom-Base64
 {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
+        [Parameter(ValueFromPipeline = $true)]
         [string] $Base64
     )
     
     Process 
     {
-        $bytes = [Convert]::FromBase64String($Base64)
-        return [System.Text.Encoding]::UTF8.GetString($bytes)
+        if ($null -ne $Base64) 
+        {
+            $Bytes = [Convert]::FromBase64String($Base64)
+            Write-Output [System.Text.Encoding]::UTF8.GetString($Bytes)
+        }
+        else 
+        {
+            Write-Error "No base64-encoded data provided."
+        }
     }
 
     <#
