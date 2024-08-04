@@ -58,15 +58,14 @@ public class JavaCryptoAsymmetricKey {
             return rsaKeyFactory.generatePublic(rsaPublicKeySpec);
         } else if (privateKey instanceof ECPrivateKey ecKey) {
             // This is Bouncy Castle.
-            var asn1Sequence = ASN1Sequence.getInstance(ecKey.getEncoded());
-            var privateKeyInfo = PrivateKeyInfo.getInstance(asn1Sequence);
+            var privateKeyInfo = PrivateKeyInfo.getInstance(ecKey.getEncoded());
             var bcPrivateKey = org.bouncycastle.asn1.sec.ECPrivateKey.getInstance(privateKeyInfo.parsePrivateKey());
 
             var publicKeyBit = bcPrivateKey.getPublicKey();
             var publicKeyInfo = new SubjectPublicKeyInfo(privateKeyInfo.getPrivateKeyAlgorithm(), publicKeyBit);
 
-            var keySpec = new X509EncodedKeySpec(publicKeyInfo.getEncoded());
             var keyFactory = KeyFactory.getInstance(ecKey.getAlgorithm());
+            var keySpec = new X509EncodedKeySpec(publicKeyInfo.getEncoded());
             return keyFactory.generatePublic(keySpec);
             // End of Bouncy Castle.
         } else {
