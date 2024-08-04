@@ -9,6 +9,7 @@ The lists are ordered newest to oldest.
 
 ## 2024
 
+* [Java Crypto Read DER Encoded Asymmetric Keys](Java-Crypto-Asymmetric-Key) ([Blog Post](https://the-codeslinger.com/2024/08/04/java-crypto-read-der-encoded-asymmetric-keys/))
 * [Base64 Conversion PowerShell Advanced Script Cmdlet](Base64-Conversion-PowerShell-Advanced-Script-Cmdlet) ([Blog Post](https://the-codeslinger.com/2024/06/23/base64-powershell-cmdlet-via-advanced-functions/))
 * [How To Run PowerShell And Bash Scripts In Terraform](Terraform-Run-PowerShell-And-Bash-Scripts) ([Blog Post](http://the-codeslinger.com/2024/01/20/how-to-execute-powershell-and-bash-scripts-in-terraform/))
 * [How To Detect Windows Or Linux Operating System In Terraform](Terraform-Detect-Operating-System) ([Blog Post](http://the-codeslinger.com/2024/01/14/how-to-detect-windows-or-linux-operating-system-in-terraform/))
