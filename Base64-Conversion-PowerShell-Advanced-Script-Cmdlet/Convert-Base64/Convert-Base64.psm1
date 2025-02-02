@@ -71,7 +71,8 @@ Function ConvertFrom-Base64
     {
         if ($null -ne $Base64) 
         {
-            $Bytes = [Convert]::FromBase64String($Base64)
+            $PaddedBase64 = $Base64.PadRight($Base64.Length + (4 - $Base64.Length % 4) % 4, '=')
+            $Bytes = [Convert]::FromBase64String($PaddedBase64)
             return [System.Text.Encoding]::UTF8.GetString($Bytes)
         }
         else 
