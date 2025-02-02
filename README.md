@@ -9,7 +9,7 @@ The lists are ordered newest to oldest.
 
 ## 2025
 
-* [Take Game Screenshots On Linux Every X Minutes In Python](Take-Game-Screenshots-On-Linux-Every-X-Minutes-In-Python) ([Blog Post](Work-in-progress))
+* [Take Game Screenshots On Linux Every X Minutes In Python](Take-Game-Screenshots-On-Linux-Every-X-Minutes-In-Python) ([Blog Post](https://the-codeslinger.com/2025/02/02/take-game-screenshots-on-linux-every-x-minutes-in-python/))
 
 ## 2024
 
